@@ -51,12 +51,12 @@ Shader "Skybox/Cubemap Blend"
 		Pass
 		{
 			Name "Unlit"
-			Stencil
-             {
-                 Ref 119
-                 Comp Equal
-                 Pass Keep
-             }  
+//			Stencil
+//             {
+//                 Ref 119
+//                 Comp Equal
+//                 Pass Keep
+//             }  
 			CGPROGRAM
 
 			
